@@ -1,6 +1,5 @@
 ;;; nntp.lisp --- Simple NNTP client for Common Lisp
 ;; Copyright 2001-2004 by Dave Pearson <davep@davep.org>
-;; $Revision: 1.22 $
 
 ;; nntp.lisp is free software distributed under the terms of the GNU General
 ;; Public Licence, version 2. For details see the file COPYING.

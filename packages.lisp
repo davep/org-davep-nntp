@@ -2,7 +2,6 @@
 ;;
 ;; packages.lisp --- Defines packages for org-davep-nntp.
 ;; Copyright 2001-2004 by Dave Pearson <davep@davep.org>
-;; $Revision: 1.1 $
 ;;
 ;; This software is Copyright (C) Dave Pearson <davep@davep.org> 2001-2004.
 ;;
@@ -36,7 +35,7 @@
            "NNTP-GROUP-INFO"            ; NNTP-GROUP-INFO.
            "FLAGS"
            "NNTP-GROUP-DETAILS"         ; NNTP-GROUP-DETAILS.
-           "ARTICLE-COUNT" 
+           "ARTICLE-COUNT"
            "NNTP-XHDR-DETAILS"          ; NNTP-XHDR-DETAILS.
            "ARTICLE-ID"
            "HEADER-VALUE"

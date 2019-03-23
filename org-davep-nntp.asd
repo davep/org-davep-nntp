@@ -2,7 +2,6 @@
 ;;
 ;; org-davep-nntp.asd --- asdf package defintion file.
 ;; Copyright 2001-2004 by Dave Pearson <davep@davep.org>
-;; $Revision: 1.1 $
 ;;
 ;; This software is Copyright (C) Dave Pearson <davep@davep.org> 2001-2004.
 ;;
