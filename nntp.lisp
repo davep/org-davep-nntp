@@ -18,7 +18,7 @@
 ;;
 ;; You can always find the latest version of org-davep-nntp at:
 ;;
-;;    <URL:http://www.davep.org/lisp/#org-davep-nntp>
+;;    <URL:https://github.com/davep/org-davep-nntp>
 
 ;;; Code:
 
@@ -165,7 +165,7 @@
   (print-unreadable-object (group stream :type t)
     (print-group-detail group stream)
     (format stream " ~S" (article-count group))))
-            
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Class for holding an xhdr result.
 
@@ -206,7 +206,7 @@
     (when (> (length host) 1)
       (setf (host nntp-client) (car host))
       (setf (port nntp-client) (parse-integer (cadr host))))))
-        
+
 (defun make-nntp-client (&key (host *default-nntp-host*) (port *default-nntp-port*))
   "Create an NNTP client."
   (make-instance 'nntp-client :host host :port port))
@@ -260,7 +260,7 @@
 (defmethod put-line :before ((nntp-client nntp-client) (line string))
   "Ensure that we're connected before putting a line."
   (connected-check nntp-client))
-  
+
 (defmethod put-line ((nntp-client nntp-client) (line string))
   "Send a line to the NNTP server."
   (format (socket nntp-client) "~A~C~C" line #\Return #\NewLine)
